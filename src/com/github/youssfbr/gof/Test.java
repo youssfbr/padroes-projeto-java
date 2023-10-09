@@ -1,5 +1,6 @@
 package com.github.youssfbr.gof;
 
+import com.github.youssfbr.gof.facade.Facade;
 import com.github.youssfbr.gof.singleton.SingletonEager;
 import com.github.youssfbr.gof.singleton.SingletonLazy;
 import com.github.youssfbr.gof.singleton.SingletonLazyHolder;
@@ -44,5 +45,9 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        // Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("Alisson", "1234567");
     }
 }
