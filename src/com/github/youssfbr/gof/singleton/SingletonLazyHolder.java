@@ -1,4 +1,4 @@
-package com.github.youssfbr.gof;
+package com.github.youssfbr.gof.singleton;
 
 /**
  * Singleton "lazy holder"
